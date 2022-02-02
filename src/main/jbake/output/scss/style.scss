@@ -1,0 +1,221 @@
+// sass --watch assets/scss/style.scss assets/css/style.css
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+// @import "../../../../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../../../../node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+//font
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+$font-family-base: 'Montserrat', sans-serif;
+// Colors
+$primary: #1488C2;
+$secondary: #08284A;
+// Buttons
+$btn-border-radius: 1000px;
+$btn-font-weight: 700;
+$btn-font-size: 14px;
+
+// inputs
+$input-color:#697C90;
+$input-bg:#FAFAFA;
+// gap
+.btn-primary{
+    color: white !important;
+}
+.gap-6{
+    gap: 6px;
+}
+.gap-12{
+    gap: 12px !important;
+}
+.gap-18{
+    gap: 18px !important;
+}
+.gap-24{
+    gap: 24px !important;
+}
+// dropdown
+.dropdown-menu{
+    border: none !important;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    a:hover{
+        background-color: lighten(gray, 45%) !important;
+    }
+}
+// 3. Include remainder of required Bootstrap stylesheets
+@import "../../../../../node_modules/bootstrap/scss/variables";
+@import "../../../../../node_modules/bootstrap/scss/mixins";
+@import "../../../../../node_modules/bootstrap/scss/root";
+
+// 4. Include any optional Bootstrap CSS as needed
+@import "../../../../../node_modules/bootstrap/scss/forms";
+@import "../../../../../node_modules/bootstrap/scss/dropdown";
+@import "../../../../../node_modules/bootstrap/scss/carousel";
+@import "../../../../../node_modules/bootstrap/scss/navbar";
+@import "../../../../../node_modules/bootstrap/scss/utilities";
+@import "../../../../../node_modules/bootstrap/scss/buttons";
+@import "../../../../../node_modules/bootstrap/scss/reboot";
+@import "../../../../../node_modules/bootstrap/scss/type";
+@import "../../../../../node_modules/bootstrap/scss/images";
+@import "../../../../../node_modules/bootstrap/scss/containers";
+@import "../../../../../node_modules/bootstrap/scss/grid";
+@import "../../../../../node_modules/bootstrap/scss/helpers";
+
+// 5. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+@import "../../../../../node_modules/bootstrap/scss/utilities/api";
+
+// 6. Add additional custom code here
+
+.animate__delay-05s{
+    animation-delay: .5s !important;
+
+}
+
+//colors
+.bg-secondary-dark{
+    background-color: darken($secondary, 8%);
+}
+
+//inputs
+.input-with-icon{
+    position: relative;
+    .uil{
+        color: #697C90;
+        left: 12px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 24px;
+    }
+    .form-control{
+        padding-left: 42px;
+        width: 100%;
+    }
+}
+.search-input{
+    .form-control{
+        transition: 0.5s !important;
+        width: 0px;
+        padding-left: 34px ;
+    }
+    &:hover{
+        .form-control{
+            width: 300px;
+            padding-left: 42px;
+            &::placeholder{
+                color: #697C90;
+            }
+        }
+    }
+
+}
+
+// Navbar
+.navbar-shadow{
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+}
+.navbar{
+    transition: 0.5s;
+    top: 0;
+    z-index: 10000;
+    background-color: white;
+    width: 100vw;
+    position: fixed;
+    border-top: solid $primary 5px;
+    .bottom-navbar{
+        text-decoration: none;
+        a{
+            font-weight: 500;
+            text-decoration: none;
+            color: gray;
+            &:hover{
+                color: darken(gray, 15%);
+            }
+        }
+        .active{
+            color: $secondary !important;
+        }
+    }
+}
+
+.top-section{
+    margin-top: 150px;
+}
+.main-carousel{
+    .carousel-image-container{
+        width: 80%;
+        height: 500px;
+        // background: linear-gradient(356.69deg, #FFFFFF 2.57%, rgba(255, 255, 255, 0) 18.64%), linear-gradient(175.76deg, #FFFFFF 7.01%, rgba(255, 255, 255, 0) 29.23%), linear-gradient(263.72deg, #FFFFFF 4.96%, rgba(255, 255, 255, 0) 45.27%), linear-gradient(91.03deg, #FFFFFF 8.2%, rgba(255, 255, 255, 0) 56.36%), url("https://images.pexels.com/photos/8466776/pexels-photo-8466776.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+        background-size: cover !important;
+    }
+    .carousel-indicators{
+        .active{
+            background-color: $primary !important;
+        }
+        .carousel-indicator{
+            background-color: lighten($primary, 20%);
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+        }
+    }
+}
+.services-container{
+    .relevant-service{
+        position: relative;
+        height: 100%;
+        background-color: lighten($primary, 50%);
+        overflow: hidden;
+        height: 200px;
+        img{
+            transition: .5s;
+        }
+        &:hover{
+            .circle{
+                transform: translate(-50%, -20%);
+            }
+            img{
+                transform: scale(1.3);
+            }
+        }
+        .content{
+            position: relative;
+            z-index: 100;
+        }
+        .circle{
+            transition: .5s;
+            width: 300px;
+            height: 300px;
+            background-color: lighten($primary, 45%);
+            border-radius: 1000px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -10%);
+        }
+    }
+}
+
+.informative-section{
+    overflow: hidden;
+    position: relative;
+}
+.covid-bg{
+    height: 300px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    width: 75%;
+    background: linear-gradient(88.73deg, #08284A 16.81%, rgba(8, 40, 74, 0) 97.72%), url("https://images.pexels.com/photos/3902881/pexels-photo-3902881.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+        background-position-x: 0%, 0%;
+        background-position-y: 0%, 0%;
+        background-size: auto, auto;
+    mix-blend-mode: luminosity;
+    opacity: 0.2;
+    object-fit: fit;
+    background-position: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
