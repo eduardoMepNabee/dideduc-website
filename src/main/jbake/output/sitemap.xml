@@ -24,4 +24,16 @@
         <loc>http://localhost:8820//blog/2013/first-post.html</loc>
         <lastmod>2013-07-24</lastmod>
     </url>
+    <url>
+        <loc>http://localhost:8820//banners/banner-2.html</loc>
+        <lastmod>2022-02-02</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8820//banners/banner-3.html</loc>
+        <lastmod>2022-02-02</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8820//banners/banner-1.html</loc>
+        <lastmod>2022-02-02</lastmod>
+    </url>
 </urlset>
