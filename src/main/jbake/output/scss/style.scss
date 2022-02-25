@@ -45,26 +45,27 @@ $input-bg:#FAFAFA;
     }
 }
 // 3. Include remainder of required Bootstrap stylesheets
-@import "../../../../../node_modules/bootstrap/scss/variables";
-@import "../../../../../node_modules/bootstrap/scss/mixins";
-@import "../../../../../node_modules/bootstrap/scss/root";
+// @import "../../../../../node_modules/bootstrap/scss/variables";
+// @import "../../../../../node_modules/bootstrap/scss/mixins";
+// @import "../../../../../node_modules/bootstrap/scss/root";
 
 // 4. Include any optional Bootstrap CSS as needed
-@import "../../../../../node_modules/bootstrap/scss/forms";
-@import "../../../../../node_modules/bootstrap/scss/dropdown";
-@import "../../../../../node_modules/bootstrap/scss/carousel";
-@import "../../../../../node_modules/bootstrap/scss/navbar";
-@import "../../../../../node_modules/bootstrap/scss/utilities";
-@import "../../../../../node_modules/bootstrap/scss/buttons";
-@import "../../../../../node_modules/bootstrap/scss/reboot";
-@import "../../../../../node_modules/bootstrap/scss/type";
-@import "../../../../../node_modules/bootstrap/scss/images";
-@import "../../../../../node_modules/bootstrap/scss/containers";
-@import "../../../../../node_modules/bootstrap/scss/grid";
-@import "../../../../../node_modules/bootstrap/scss/helpers";
+// @import "../../../../../node_modules/bootstrap/scss/forms";
+// @import "../../../../../node_modules/bootstrap/scss/dropdown";
+// @import "../../../../../node_modules/bootstrap/scss/carousel";
+// @import "../../../../../node_modules/bootstrap/scss/navbar";
+// @import "../../../../../node_modules/bootstrap/scss/utilities";
+// @import "../../../../../node_modules/bootstrap/scss/buttons";
+// @import "../../../../../node_modules/bootstrap/scss/reboot";
+// @import "../../../../../node_modules/bootstrap/scss/type";
+// @import "../../../../../node_modules/bootstrap/scss/images";
+// @import "../../../../../node_modules/bootstrap/scss/containers";
+// @import "../../../../../node_modules/bootstrap/scss/accordion";
+// @import "../../../../../node_modules/bootstrap/scss/grid";
+@import "../../../../../node_modules/bootstrap/scss/bootstrap.scss";
 
 // 5. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
-@import "../../../../../node_modules/bootstrap/scss/utilities/api";
+// @import "../../../../../node_modules/bootstrap/scss/utilities/api";
 
 // 6. Add additional custom code here
 
@@ -141,7 +142,7 @@ $input-bg:#FAFAFA;
 }
 
 .top-section{
-    margin-top: 150px;
+    margin-top: 180px;
 }
 .main-carousel{
     .carousel-image-container{
@@ -218,4 +219,61 @@ $input-bg:#FAFAFA;
     position: absolute;
     right: 0;
     top: 0;
+}
+
+.section-banner{
+    background-color: #F0F9FF;
+    position: relative;
+    overflow: hidden;
+    .circle{
+        position: absolute;
+    }
+    .circle-top{
+        top: -500px;
+        left: -250px;
+    }
+    .circle-bottom{
+        right: -250px;
+        bottom: -500px;
+    }
+}
+
+.services-list-container{
+    .service-card{
+        overflow: hidden;
+        *{
+            transition: .2s ease-in-out;
+        }
+        img{
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        &:hover{
+            p{
+                color: $primary !important;
+            }
+            img{
+                transform: scale(1.02);
+            }
+        }
+    }
+}
+
+.news-list-container{
+
+    .new{
+        img{
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+    }
+}
+
+.news-details-container{
+    .news-image{
+        height: 200px;
+        object-fit: cover;
+    }
 }

@@ -1,39 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>http://localhost:8820//about.html</loc>
-        <lastmod>2013-09-24</lastmod>
+        <loc>http://localhost:8820//nosotros/organigramas.html</loc>
+        <lastmod>2022-02-25</lastmod>
     </url>
     <url>
-        <loc>http://localhost:8820//blog/2013/fifth-post.html</loc>
-        <lastmod>2013-11-11</lastmod>
+        <loc>http://localhost:8820//nosotros/contacto.html</loc>
+        <lastmod>2022-02-23</lastmod>
     </url>
     <url>
-        <loc>http://localhost:8820//blog/2013/fourth-post.html</loc>
-        <lastmod>2013-10-17</lastmod>
+        <loc>http://localhost:8820//banners/1-main-banner.html</loc>
+        <lastmod>2022-02-08</lastmod>
     </url>
     <url>
-        <loc>http://localhost:8820//blog/2013/third-post.html</loc>
-        <lastmod>2013-09-26</lastmod>
+        <loc>http://localhost:8820//banners/4-banner-demo.html</loc>
+        <lastmod>2022-02-08</lastmod>
     </url>
     <url>
-        <loc>http://localhost:8820//blog/2013/second-post.html</loc>
-        <lastmod>2013-08-25</lastmod>
+        <loc>http://localhost:8820//banners/2-banner-demo.html</loc>
+        <lastmod>2022-02-07</lastmod>
     </url>
     <url>
-        <loc>http://localhost:8820//blog/2013/first-post.html</loc>
-        <lastmod>2013-07-24</lastmod>
+        <loc>http://localhost:8820//banners/3-banner-demo.html</loc>
+        <lastmod>2022-02-07</lastmod>
     </url>
     <url>
-        <loc>http://localhost:8820//banners/banner-2.html</loc>
-        <lastmod>2022-02-02</lastmod>
+        <loc>http://localhost:8820//servicios/administrador-de-correos/1-service.html</loc>
+        <lastmod>2022-02-25</lastmod>
     </url>
     <url>
-        <loc>http://localhost:8820//banners/banner-3.html</loc>
-        <lastmod>2022-02-02</lastmod>
+        <loc>http://localhost:8820//biblioteca/archivo1.html</loc>
+        <lastmod>2022-02-23</lastmod>
     </url>
     <url>
-        <loc>http://localhost:8820//banners/banner-1.html</loc>
-        <lastmod>2022-02-02</lastmod>
+        <loc>http://localhost:8820//biblioteca/archivo2.html</loc>
+        <lastmod>2022-02-18</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8820//servicios/empleados/solicitud-de-vaciones.html</loc>
+        <lastmod>2022-02-16</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8820//servicios/empleados/2.html</loc>
+        <lastmod>2022-02-16</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8820//servicios/empleados/solicitud-de-vaciones-copy.html</loc>
+        <lastmod>2022-02-16</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8820//servicios/docentes/1-service.html</loc>
+        <lastmod>2022-02-16</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8820//servicios/alumnos/1-service.html</loc>
+        <lastmod>2022-02-10</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8820//servicios/empleados/listado-de-servicios.html</loc>
+        <lastmod>2022-02-07</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8820//servicios/alumnos/listado-de-servicios.html</loc>
+        <lastmod>2022-02-07</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8820//servicios/docentes/listado-de-servicios.html</loc>
+        <lastmod>2022-02-07</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8820//servicios/administrador-de-correos/listado-de-servicios.html</loc>
+        <lastmod>2022-02-07</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8820//noticias/danos-escuelas.html</loc>
+        <lastmod>2022-02-16</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8820//noticias/calendario-2022.html</loc>
+        <lastmod>2022-02-10</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8820//noticias/listado-de-noticias.html</loc>
+        <lastmod>2022-02-10</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8820//biblioteca/listado-de-biblioteca.html</loc>
+        <lastmod>2022-02-18</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8820//nosotros/quienes-somos/mision.html</loc>
+        <lastmod>2022-02-23</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8820//nosotros/quienes-somos/valores.html</loc>
+        <lastmod>2022-02-23</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8820//nosotros/quienes-somos/vision.html</loc>
+        <lastmod>2022-02-23</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8820//nosotros/quienes-somos.html</loc>
+        <lastmod>2022-02-23</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8820//nosotros/autoridades.html</loc>
+        <lastmod>2022-02-23</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8820//nosotros/autoridades/eduardo-penate2.html</loc>
+        <lastmod>2022-02-25</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8820//nosotros/autoridades/eduardo-penate3.html</loc>
+        <lastmod>2022-02-25</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8820//nosotros/autoridades/eduardo-penate.html</loc>
+        <lastmod>2022-02-25</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8820//nosotros/directorio.html</loc>
+        <lastmod>2022-02-24</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8820//nosotros/directorio/eduardoee.html</loc>
+        <lastmod>2022-02-25</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8820//nosotros/directorio/eduardo-penate.html</loc>
+        <lastmod>2022-02-25</lastmod>
     </url>
 </urlset>
